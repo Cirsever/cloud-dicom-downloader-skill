@@ -20,8 +20,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2554,
-      "sha256": "5f47471fe39a02dd5c2fc94995d42da651b07f6f615572fd2835291f0219cdc6"
+      "bytes": 8342,
+      "sha256": "73caca4ab4f819388361e590eac3853ed5bcb5abca5b14ecb19abf4f71596365"
     },
     {
       "path": "SKILL.md",
@@ -32,6 +32,16 @@
       "path": "agents/openai.yaml",
       "bytes": 348,
       "sha256": "3212f1f307343f8673ff9d8a9b2a511677e936460bf3b47a11785648b3d4e819"
+    },
+    {
+      "path": "assets/screenshots/local-files.png",
+      "bytes": 92471,
+      "sha256": "709d9798a61abfc6db1bebf2d70ffdd16f8ca80a6aaae67dae52fdba7d88c1d7"
+    },
+    {
+      "path": "assets/screenshots/validation-result.png",
+      "bytes": 84500,
+      "sha256": "bb38d840376550fc09a4303cc77b39c4bb384490385a751f5e1382e809c36d90"
     },
     {
       "path": "crawlers/_browser.py",
