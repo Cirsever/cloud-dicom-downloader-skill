@@ -1,0 +1,223 @@
+{
+  "skill": "cloud-dicom-downloader",
+  "version": "1.0.0-local",
+  "upstream_commit": "f77568cbda18788df92a9d9b92c9de99c07753c7",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 488,
+      "sha256": "c1179773dd188af35b5dc48a9bc7f4f8248c441481ac4c4cb8c8fde5955925ca"
+    },
+    {
+      "path": "ATTRIBUTION.md",
+      "bytes": 958,
+      "sha256": "7382f5007e572b09c2ab6574541318dbfc75ccd99f471aff19b18f4e8c311e60"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 12392,
+      "sha256": "4b95fe8e42ec169066bed4449fc25cd1e94aaea9f4f3250ed6d2f794ecfc497b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2554,
+      "sha256": "5f47471fe39a02dd5c2fc94995d42da651b07f6f615572fd2835291f0219cdc6"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5470,
+      "sha256": "139cba8c9bc1044009f27ba2fac9dad2474c0acb61291cf0a2d931b59966f623"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 348,
+      "sha256": "3212f1f307343f8673ff9d8a9b2a511677e936460bf3b47a11785648b3d4e819"
+    },
+    {
+      "path": "crawlers/_browser.py",
+      "bytes": 3431,
+      "sha256": "a55ccd814505c2742ccd4132236647f0086655e866b21e1e4c924b2afd97b9e4"
+    },
+    {
+      "path": "crawlers/_utils.py",
+      "bytes": 6659,
+      "sha256": "886d48be76f9882ed0c99d8de2ea424e3e9cd1f06d230548ec3fccc1825292df"
+    },
+    {
+      "path": "crawlers/cq12320.py",
+      "bytes": 1602,
+      "sha256": "d3827d99cce87ff3242daedbbce75056d86cf9db11568acf5d58cb9f9bf984b0"
+    },
+    {
+      "path": "crawlers/ftimage.py",
+      "bytes": 3717,
+      "sha256": "810c1d3b6f4e2d47f638215a2df014f70605b1b82494da0cd57e3bb7ac825c6a"
+    },
+    {
+      "path": "crawlers/hinacom.py",
+      "bytes": 10689,
+      "sha256": "6856e354cea4da09f19d36dd6d1e68587b467a468d21086f28f9fca2d1335f10"
+    },
+    {
+      "path": "crawlers/jdyfy.py",
+      "bytes": 1007,
+      "sha256": "c23868249bb1afdea80aeffd18573ae49a654224deef29feed513f27a97ee8f9"
+    },
+    {
+      "path": "crawlers/mtywcloud.py",
+      "bytes": 1830,
+      "sha256": "7ca547d25097ebb2d0c4c6f84f36b1ef9d08650acab678654012d81e601cc3bb"
+    },
+    {
+      "path": "crawlers/shdc.py",
+      "bytes": 4200,
+      "sha256": "3ae2749bf43df7bba40fcf584dc489103167b717dc6ac3ca7443871c41d5dba0"
+    },
+    {
+      "path": "crawlers/sugh.py",
+      "bytes": 2143,
+      "sha256": "c27e2f15e1684efdfd87d3ea3c37316d6564dcf86e3a99f2f2f526e1fecf1160"
+    },
+    {
+      "path": "crawlers/szjudianyun.py",
+      "bytes": 4097,
+      "sha256": "eb44d440a41494f87001048203a2e152f347f38ff084c0167805d1720a56bd63"
+    },
+    {
+      "path": "crawlers/yzhcloud.py",
+      "bytes": 1497,
+      "sha256": "e7f4a352d2c654e278d7db9c6295217b1c6605ddb1fed5dc65ce86be5b7a85f1"
+    },
+    {
+      "path": "crawlers/zscloud.py",
+      "bytes": 3355,
+      "sha256": "72db20549a825bd30453f88349a4badeb5b0b187a2a8baa54f0abe94133d7c33"
+    },
+    {
+      "path": "downloader.py",
+      "bytes": 1850,
+      "sha256": "a9e58f9858e02b9bf7ff4f1764544dcfe3e7ea43b1a5c8893d661891757e0916"
+    },
+    {
+      "path": "pytest.ini",
+      "bytes": 178,
+      "sha256": "d1439b2a3bf60eecbdb7337f14938e8a87a55b3d282840ec8163c32cd238bf95"
+    },
+    {
+      "path": "references/input-output.md",
+      "bytes": 3703,
+      "sha256": "54b56ab517cf2e5169857e43a61e58269b03476cd37599e6de38fb92f9dd3965"
+    },
+    {
+      "path": "references/jev-review.json",
+      "bytes": 362,
+      "sha256": "2ccf6fd888f9d1e4eab2ca2320739f25d22103a163dd2d0805a1ddad77930fd1"
+    },
+    {
+      "path": "references/new-platform.md",
+      "bytes": 1396,
+      "sha256": "51da268004be04ed0f3bbe1166377dc521ba8ea5f542062f191f304efdb4577c"
+    },
+    {
+      "path": "references/platforms.md",
+      "bytes": 2541,
+      "sha256": "d08f224e7080d0084f82a57acf1daea48cf6838ce3157fba674a3d24d9aff1b3"
+    },
+    {
+      "path": "references/radinfo-case.md",
+      "bytes": 2659,
+      "sha256": "7acca9da71963ee2d0c95621c0bc08bb43dffda865d04094a19e924f49a31daa"
+    },
+    {
+      "path": "references/report-analysis.md",
+      "bytes": 1646,
+      "sha256": "28d1555a6a7a8db4b3ec0e7cd84c8c73f986832e178a9442d9bd8b773352262c"
+    },
+    {
+      "path": "references/review.md",
+      "bytes": 6054,
+      "sha256": "4459812242ed3160dacc778b2a84624aa93554d4fa122b0a420a64073b230b8d"
+    },
+    {
+      "path": "references/validation-summary.json",
+      "bytes": 974,
+      "sha256": "ec8791fbf36baae7869af1030c1bc5a6a5e3361e68970184e14c9074c12de8d5"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "bytes": 202,
+      "sha256": "349a30d5ed076b309fdd2c97a48c849c20cade487b86d60e35356add53bef7be"
+    },
+    {
+      "path": "requirements-skill.txt",
+      "bytes": 197,
+      "sha256": "13232265254266a49afc98f082a8648e7022abf56150758d453a17d368bc539a"
+    },
+    {
+      "path": "requirements-test.txt",
+      "bytes": 110,
+      "sha256": "3d4a3b80ae2e6b17a2af339a5b37618b891e3750151bed29b2b1806152c8766b"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 86,
+      "sha256": "2f87fb89d8a1bac3b6fddaf1b13942fac9f65c93779609bc63e8b0c4f98e5fc3"
+    },
+    {
+      "path": "scripts/dicom_core.py",
+      "bytes": 5441,
+      "sha256": "664de36b5df2e0a13b6dc9f53074bbcaaeba7ee45744301f67994417fda89d46"
+    },
+    {
+      "path": "scripts/dicom_skill.py",
+      "bytes": 13218,
+      "sha256": "634efb8bb77372fec42f14404412f93c94c164bf5d6d28b8aafaed24b0f2e297"
+    },
+    {
+      "path": "scripts/radinfo.py",
+      "bytes": 9838,
+      "sha256": "1e43ca343d1196d41815aa295dfd11660bc3004a9dfb29674d92a41793d4a0b2"
+    },
+    {
+      "path": "test/fixtures/dump.http",
+      "bytes": 701,
+      "sha256": "2457d304c675061a3a5d6f7ee8e29d644ae25ee1f998621c8ea82a599116cec2"
+    },
+    {
+      "path": "test/fixtures/dump.ws",
+      "bytes": 219,
+      "sha256": "1fa439755b85a51310e670d27c78384b71e6bb4aabef2706cb55412761862944"
+    },
+    {
+      "path": "test/test_manual.py",
+      "bytes": 1256,
+      "sha256": "aca750d502f647dd0370c4ceb2836521494a1cfc70c3de34a7cc2df052a07c7a"
+    },
+    {
+      "path": "test/test_skill.py",
+      "bytes": 10756,
+      "sha256": "e9e1f312d60fc748b5c9b3bb22536ec649c0a2ea8c82859ca6269b0a455225df"
+    },
+    {
+      "path": "test/test_utils.py",
+      "bytes": 1973,
+      "sha256": "9763fd8a0b821c19cac83a940a4f151c736f77f14f32da87fee67ede6ff11911"
+    },
+    {
+      "path": "tools/export.py",
+      "bytes": 7050,
+      "sha256": "3ee9949ec09b0f22b303a70d3f4e3f9090f788a031948b86f37105c9c228bc2d"
+    },
+    {
+      "path": "tools/manual.py",
+      "bytes": 7654,
+      "sha256": "4212524f8bc4a3c06a1bd8b7f24bc589b14cfb8c76731ab850ba99e2f17654da"
+    },
+    {
+      "path": "tools/mutate.py",
+      "bytes": 327,
+      "sha256": "90d6b416667c856e4a808dc465815e532336b6bc94e398d4d029d3545c0ef60e"
+    }
+  ],
+  "note": "Covers distribution files except this manifest itself; runtime and patient artifacts excluded."
+}

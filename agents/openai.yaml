@@ -1,0 +1,6 @@
+interface:
+  display_name: "CT / MRI 云影像下载"
+  short_description: "从医院分享链接下载 DICOM，核对完整性并按需读取检查报告"
+  default_prompt: "使用 $cloud-dicom-downloader 下载这份 CT/MRI 分享链接中的影像，核对完整性，并按我的要求解释报告。"
+policy:
+  allow_implicit_invocation: true

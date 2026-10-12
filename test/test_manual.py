@@ -1,0 +1,33 @@
+# Modified in local Skill fork: current dump reader API and cwd-independent fixtures.
+from pathlib import Path
+
+from yarl import URL
+
+from tools.manual import WebSocketDumpFile, HTTPDumpFile
+
+
+def test_deserialize_ws():
+	ws = WebSocketDumpFile.read_from(Path(__file__).parent / "fixtures/dump.ws")
+	assert ws.url == URL("ws://example.com:63001/socket.io/?EIO=3&transport=websocket")
+	assert ws.frames == [
+		(True, "2probe"),
+		(False, "3probe"),
+		(True, '{"manifest_version":3,"name":"Bookshelf-newtab"}'),
+		(False, b"                                       DICM"),
+	]
+
+def test_deserialize_http():
+	exchange = HTTPDumpFile.read_from(Path(__file__).parent / "fixtures/dump.http")
+	request_body = exchange.request_body()
+	response_body = exchange.response_body()
+
+	assert exchange.url == URL("https://example.com/e/CustomImageServlet?tk=DEMO")
+	assert len(exchange.request_headers) == 15
+	assert exchange.request_headers["sec-fetch-dest"] == "empty"
+	assert request_body.startswith(b"requestType=")
+	assert request_body.endswith(b"08540018&level=0")
+
+	assert exchange.status == 200
+	assert len(exchange.response_headers) == 8
+	assert exchange.response_headers["p3p"] == 'CP=:"This is not a P3P policy!"'
+	assert response_body == b"CLOHEADERZ01\x00\x00"

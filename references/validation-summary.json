@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "upstream_commit": "f77568cbda18788df92a9d9b92c9de99c07753c7",
+  "tests": {
+    "command": "python -m pytest -q",
+    "passed": 33,
+    "failed": 0,
+    "scope": "synthetic regression and inherited unit tests; no external network"
+  },
+  "skill_validator": "passed",
+  "git_diff_check": "passed",
+  "real_case": {
+    "mode": "offline replay of previously authorized local viewer/report/DICOM artifacts",
+    "instances": 119,
+    "series": 6,
+    "all_pixels_decoded": true,
+    "all_sha256_match_original_backup": true,
+    "new_live_bulk_download": false
+  },
+  "semantic_review": {
+    "service": "TypeSafe Jev",
+    "status": "unavailable",
+    "http_status": 451,
+    "attempts": 1,
+    "latency_ms": 2158,
+    "probabilities": null,
+    "scope": "de-identified Skill documentation only"
+  },
+  "environment": {
+    "python": "3.13.2",
+    "os": "macOS",
+    "note": "Other Python/OS and inherited sites were not exhaustively tested."
+  }
+}

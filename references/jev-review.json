@@ -1,0 +1,12 @@
+{
+  "id": "dicom-skill-contract-v1",
+  "evidence_scope": "Skill instructions and input/output, platform, report-analysis documentation only; no patient data, no live medical report, no execution trace.",
+  "input_digest": "b0b0b6528dd67b7f",
+  "status": "error",
+  "error": {
+    "type": "HTTPError",
+    "code": 451
+  },
+  "attempts": 1,
+  "latency_ms": 2158
+}

@@ -1,0 +1,47 @@
+.DS_Store
+.env
+.flaskenv
+*.pyc
+*.pyo
+env/
+env*
+dist/
+build/
+*.egg
+*.egg-info/
+_mailinglist
+.cache/
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+*,cover
+
+# IDE related files
+.idea
+*.iml
+.vscode
+
+# Working data
+/debug.py
+/download
+/exports
+/dump.zip
+
+# Skill runtime and medical/credential artifacts (keep outside this repository)
+.venv/
+__pycache__/
+*.dcm
+*.DCM
+*.zip
+*.part
+*.har
+request*.json
+report*.json
+expected.json
+validation.json
+status.json
+private/
+outputs/

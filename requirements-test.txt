@@ -1,0 +1,6 @@
+-r requirements-skill.txt
+pytest>=8.4,<9
+pytest-asyncio>=1.0,<2
+Pillow>=11.3,<13
+moviepy>=2.2,<3
+PyYAML>=6,<7
